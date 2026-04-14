@@ -1718,7 +1718,6 @@ cat > /root/sbox/sbconfig_server.json << EOF
   },
   "inbounds": [
     {
-
       "type": "vless",
       "tag": "vless-in",
       "listen": "::",
@@ -1744,7 +1743,6 @@ cat > /root/sbox/sbconfig_server.json << EOF
       }
     },
     {
-
         "type": "hysteria2",
         "tag": "hy2-in",
         "listen": "::",
@@ -1764,7 +1762,6 @@ cat > /root/sbox/sbconfig_server.json << EOF
         }
     },
     {
-
         "type": "vmess",
         "tag": "vmess-in",
         "listen": "::",
